@@ -1,0 +1,98 @@
+(ExpressProject "fpc_temp_sensor"
+  (ProjectVersion "19981106")
+  (SoftwareVersion "24.1 S005 (4301626)  [6/2/2025]-[06/25/25]")
+  (ProjectType "PCB")
+  (Folder "Design Resources"
+    (Folder "Library")
+    ("Allegro Netlist Directory" "allegro")
+    (DOCKED "TRUE")
+    (DOCKING_POSITION "59420")
+    (NoModify)
+    (File ".\fpc_temp_sensor.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (Board_sim_option "VHDL_flow")
+    ("Allegro Netlist Output Board File" ".\allegro\fpc_temp_sensor.brd"))
+  (Folder "Layout"
+    (File ".\allegro\fpc_temp_sensor.brd"
+      (Type "Board File")
+      (OutputBoard ".\allegro\fpc_temp_sensor.brd")
+      (NetListPath ".\allegro")
+      (ActiveBoard "1")))
+  (Folder "Outputs"
+    (File ".\allegro\pstxnet.dat"
+      (Type "Report")
+      (DisplayName "pstxnet.dat"))
+    (File ".\allegro\pstxprt.dat"
+      (Type "Report")
+      (DisplayName "pstxprt.dat"))
+    (File ".\allegro\pstchip.dat"
+      (Type "Report")
+      (DisplayName "pstchip.dat")))
+  (Folder "Referenced Projects")
+  (Folder "PSpice Resources"
+    (Folder "Simulation Profiles")
+    (Folder "Model Libraries"
+      (Sort User))
+    (Folder "Stimulus Files"
+      (Sort User))
+    (Folder "Include Files"
+      (Sort User)))
+  (Folder "Logs"
+    (File ".\allegro\netlist.log"
+      (Type "Log File")
+      (LogFile "d:\orcad\projects\fpc temp sensor\allegro\netlist.log"))
+    (File ".\allegro\netrev.lst"
+      (Type "Log File")
+      (LogFile "d:\orcad\projects\fpc temp sensor\allegro\netrev.lst"))
+    (File ".\allegro\eco.txt"
+      (Type "Log File")
+      (LogFile "d:\orcad\projects\fpc temp sensor\allegro\eco.txt")))
+  (PartMRUSelector
+    (GND
+      (LibraryName "D:\ORCAD\LIBRARY\SYMBOLS\CAPSYM-CUSTOM.OLB")
+      (DeviceIndex "0"))
+    (CAP
+      (FullPartName "CAP.Normal")
+      (LibraryName "D:\ORCAD\LIBRARY\SYMBOLS\COMMON.OLB")
+      (DeviceIndex "0"))
+    (res
+      (FullPartName "res.Normal")
+      (LibraryName "D:\ORCAD\LIBRARY\SYMBOLS\COMMON.OLB")
+      (DeviceIndex "0"))
+    (VCC_BAR
+      (LibraryName "D:\ORCAD\LIBRARY\SYMBOLS\CAPSYM-CUSTOM.OLB")
+      (DeviceIndex "0"))
+    (con-4p-2mt
+      (FullPartName "con-4p-2mt.Normal")
+      (LibraryName "D:\ORCAD\LIBRARY\SYMBOLS\CONNECTORS.OLB")
+      (DeviceIndex "0")))
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources" ".\fpc_temp_sensor.dsn")
+      (Path "Design Resources" ".\fpc_temp_sensor.dsn" "FPC_TEMP_SENSOR")
+      (Path "Design Resources" ".\fpc_temp_sensor.dsn" "Design Cache")
+      (Path "Design Resources" "Library")
+      (Path "Layout")
+      (Path "Outputs")
+      (Path "Logs")
+      (Select "Design Resources" ".\fpc_temp_sensor.dsn"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 0 322 0 1463"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 5 24 5 3472 24 1481")
+        (Scroll "-752 0")
+        (Zoom "200")
+        (Occurrence "/"))
+      (Path "D:\ORCAD\PROJECTS\FPC TEMP SENSOR\FPC_TEMP_SENSOR.DSN")
+      (Schematic "FPC_TEMP_SENSOR")
+      (Page "PAGE1")))
+  (MPSSessionName "jigney.shah"))
